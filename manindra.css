@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#navbar{
+  padding: 10px;
+  background-color: green;
+  text-align: center;
+}
+.navigation{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 19px;
+  border: 2px red;
+}
+
+#navbar a:hover{
+  background-color: rgb(14, 172, 14);
+}
+
+#navbar a:active{
+  background-color: rgb(14, 172, 14);
+  color: black;
+}
+
+form.example input{
+border: 2px solid green;
+padding: 10px;
+float: left;
+width: 300px;
+}
+
+/* placeholder color of search section */
+
+::placeholder{
+  color: green;
+}
+.example button{
+  float: left;
+  height: 48px;
+  width: 70px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color:green;
+}
+.example button:hover{
+  background-color: rgb(14, 172, 14);
+}
+.manindra{
+  display: inline-block;
+}
+
+
+/* Log In and Sign Up */
+
+
+.button{
+  background-color: green;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px 2px white;
+  color: white;
+  float:right;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+.boxs{
+  height: 100px;
+}
+
+.blocks{
+  text-align: center;
+}
+.it{
+  padding: 30px;
+}

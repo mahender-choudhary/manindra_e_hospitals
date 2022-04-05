@@ -1,0 +1,41 @@
+/* main heading */
+#heading{
+    background-color: green;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    height: 50px;
+}
+
+/* search section placeholder for hospitals tab */
+
+::placeholder{
+    color: green;
+}
+
+/* serach form in center */
+
+
+ 
+
+/* search bar styling */
+
+
+#hos input{
+    border: 2px solid green;
+    height: 50px;
+    width: 400px;
+    float: left;
+}
+
+/* search button styling */
+
+
+#hos button{
+    background-color: green;
+    color: white;
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,43 @@
+.top{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+form{
+    border: 3px solid black;
+    padding: 10px;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.lappy{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    width: 90px;
+}
+::placeholder{
+    color: green;
+}
+.pwd{
+    text-decoration: none;
+    color: black;
+}
+.signup{
+    font-family:Arial, Helvetica, sans-serif
+}
+.lapp{
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    width: 90px;
+    text-decoration: none;
+
+}
