@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel = "icon" type="image/x-icon" href="mc.png">
+    <title>Sign Up - Manindra E-hospitals</title>
+    <link rel="icon" type="image/x-icon" href="mc.png">
     <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    <a href="manindra.html"><img src="mc.png" alt="Manindra Logo"  height = "60px"></a>
-    <h1 class="top">Sign Up</h1>
-    <div class="sign">
-        <label>Name</label>
-        <input type="text" placeholder="Enter Your Name">
-        <label>Mobile Number</label>
-        <input type="text" placeholder="Enter your Mobile number">
-        <label>E-mail</label>
-        <input type="email" placeholder="Enter your email id">
-        <label>Address</label>
-        <input type="Text">
-    <button>Submit</button>
-    <span>Already a member?<a href="login.html">Sign In</a></span></div>
+    <a title="Go To Home Page" href="manindra.html"><img src="mc.png" width="60px"></a>
+    <div class="container">
+        <h3>Sign Up</h3>
+        <p>Please fill this form to create an acount.</p>
+        <form name="signup-form">
+
+            <label><strong>Mobile Number :</strong></label>
+            <input class="signup-details" type="tel" placeholder="Enter Your Mobile Number" required pattern="[0-9]{10}" title="please fill in 1234567890 form "><br><br>
+            <label>Password :</label>
+            <input class="signup-details" type="password" placeholder="Enter Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain atleast one number and one uppercase and lowercase letter, and atleast 8 characters"><br><br>
+            <label>Repeat Password :</label>
+            <input class="signup-details" type="password" placeholder="Repeat Password" required><br><br>
+
+
+            <span class="signup-span"><button class="signup-button">Submit</button></span>
+            
+        </form>
+
+
+    </div><br><br><br>
+    <span class="head-copyright"><h4 class="signup-copyright">© 2022 Copyright : manindra.com</h4></span>
+
+
+    <script src="signup.js"></script>
+    INSERT INTO `signup` (`mobile numner`, `password`, `repeat password`) VALUES ('1234567890', 'Mahendra@2002', 'Mahendra@2002');
 </body>
 </html>

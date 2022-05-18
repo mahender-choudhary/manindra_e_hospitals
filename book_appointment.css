@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#book-appointment-heading{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.span-login{
+    /* display: flex;
+    justify-content: end; */
+    right: 6px;
+    left: 3px;
+}
+
+.logo-align{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px;
+}
+
+.app-login-btn{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    border: 2px solid rgb(219, 188, 188);
+    cursor: pointer;
+}
+
+.options{
+    background-color: green;
+    color: white;
+    font-size:medium
+}
+
+.select{
+    /* background-color: aqua; */
+    color: rgb(15, 196, 15);
+    height: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.app-login-btn:hover{
+    background-color: rgb(21, 233, 21);
+}
+.app-anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(169, 214, 143);
+}
+
+.appntmnt-btn{
+    border: 2px solid white;
+    padding: 10px;
+    width: 100px;
+    background-color: palevioletred;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+}
+
+.span-btn{
+    display: flex;
+    justify-content: end;
+}
+
+.appntmnt-btn:hover{
+    background-color: rgb(220, 82, 105);
+}
+
+
+.paragraph{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    animation-name: runpara;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes runpara {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.marquee{
+    background-color: green;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:600px) {
+    .container{
+        width: auto;
+        overflow: hidden;
+    }
+    #book-appointment-heading{
+        font-size: 20px;
+    }
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright{
+    background-color: rgb(206, 212, 217);
+    color: black;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+
+}

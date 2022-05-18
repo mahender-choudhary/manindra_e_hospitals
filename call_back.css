@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.call-back-form{
+    border: 1px solid green;
+    background-color: rgb(216, 227, 237);
+    width: 50vw;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+.input-border{
+    height: 40px;
+    width: 90%;
+    border: 1px solid green;
+}
+
+.input-border::placeholder{
+    color: green;
+}
+
+.select-option{
+    height: 25px;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(88, 123, 88);
+    height: 40px;
+    font-weight: bold;
+}
+
+
+.call-back-submit-btn{
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.call-back-submit-btn:hover{
+    background-color: rgb(18, 211, 18);
+}
+
+.span-call-back{
+    display: flex;
+    justify-content: end;
+}
+
+.option-edit{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+
+
+         /* footer part */
+.call-back-para{
+    background-color: rgb(137, 151, 163);
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-back-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

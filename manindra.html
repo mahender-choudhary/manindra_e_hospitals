@@ -6,84 +6,220 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manindra E-Hospitals</title>
+
+  <!-- favicon img -->
+
   <link rel="icon" type="image/x-icon" href="mc.png">
+
+  <!-- external css -->
+
   <link rel="stylesheet" href="manindra.css">
   <link rel="stylesheet" href="nav.css">
+
+  <!--bootstrap links-->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
-<link rel="stylesheet" href="slidebar.css">
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#" class="navi">Home</a></li>
-        <li><a href="hospitals.html" class="navi">Hospitals</a></li>
-        <li><a href="#" class="navi">Buy Mediciens</a></li>
-        <li><a href="#" class="navi">About Us</a></li>
-        <li><a href="#" class="navi">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  <br>
-  <div id="parent">
-    <div class="manindra"><a href="manindra.html"><img src="mc.png" alt="Manindra Logo" height="60px"></a></div>
-    <div class="manindra">
-      <form class="example"><input type="search" placeholder="Serach by city or hospitals">
-        <button type="submit">Search</button>
-      </form>
-    </div>
-    <div class="manindra"><a href="https://wa.me/message/I42IGX2ENKJAI1" target="_blank"><img src="whatsapp-icon.jpg" height="70px" width="80px"></a></div>
-    <a href="login.html"><button class="button">Log In/Sign Up</button></a>
-  </div><br>
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="Untitled (1640 × 650 px).png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="Untitled (1640 × 800 px) (1640 × 650 px).png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="Untitled (1640 × 650 px) 2.png" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><br><br>
-    <div class="blocks">
-    <a class="it" href="#"><img class="boxs" src="BOOK APPOINTMENT.png"></a>
-    <a class="it" href="#"><img class="boxs" src="CONSULT ONLINE.png"></a>
-    <a class="it" href="#"><img class="boxs" src="VIEW REPORT.png"></a></div>
-    
-</body>
+  <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!--navigation bar-->
+
+      <header>
+        <nav>
+          <ul id="cons">
+            <li class="nav-list"><a href="manindra.html" class="navi">Home</a></li>
+            <li class="nav-list"><a href="hospitals.html" class="navi">Hospitals</a></li>
+            <li class="nav-list"><a href="book_appointment.html" class="navi">Book Appointment</a></li>
+            <li class="nav-list"><a href="buy_medicines.html" class="navi">Buy Medicines</a></li>
+            <li class="nav-list"><a href="#" class="navi">Centers</a></li>
+            <li class="nav-list"><a href="about.html" class="navi">Patient Portal</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <br>
+    
+      <!-- Manindra logo, search bar, whatsapp & login Page -->
+    
+      <!-- <div id="parent">
+        <div class="manindra"><a class="position" href="manindra.html"><img src="mc.png" alt="Manindra Logo" title="Go To Home Page" height="60px"></a></div>
+    
+        <div class="manindra">
+          <form class="example"><input type="search" placeholder="Serach by city or hospitals...">
+            <button type="submit">Search</button>
+          </form>
+        </div>
+    
+        <div class="manindra"><a class="whatsapp" href="https://wa.me/message/I42IGX2ENKJAI1" target="_blank"><img src="wtsp.png" alt="Manindra's Whatsapp" title="Chat With Manindra" width="70px"></a></div>
+
+        <div class="manindra"><a href="login.html" class="skew-animation">Log In</a></div>
+      </div> -->
+
+      <div id="parent">
+        <div class="manindra"><a class="position" href="manindra.html"><img src="mc.png" alt="Manindra Logo" title="Go To Home Page" height="60px"></a></div>
+    
+        <div class="manindra">
+          <form class="example"><input class="srch" type="search" placeholder="Serach by city or hospitals...">
+            <button type="submit">Search</button>
+          </form>
+        </div>
+    
+        <div class="manindra"><a class="whatsapp" href="https://wa.me/message/I42IGX2ENKJAI1" target="_blank"><img src="app.ico" alt="Manindra's Whatsapp" title="Chat With Manindra" width="60px"></a></div>
+        
+        <div class="manindra"><a href="login.html" class="button">Log In/Sign Up</a></div>
+      </div>
+    
+      <br>
+    
+      <!-- crousel with bootstrap -->
+    
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Untitled (1640 × 650 px) 2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Untitled (1640 × 650 px).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Untitled (1640 × 800 px) (1640 × 650 px).png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script><br><br>
+    
+        <!--random-->
+    
+        <div class="blocks">
+        <a class="it" href="book_appointment.html"><img class="boxs" src="BOOK APPOINTMENT.png" title="Book Appointment For Offline Consultion"></a>
+        <a class="it" href="#"><img class="boxs" src="CONSULT ONLINE.png"></a>
+        <a class="it" href="#"><img class="boxs" src="VIEW REPORT.png"></a></div>
+        <br>
+    
+        <!--request call back button-->
+    
+        <a href="call_back.html" style="position: fixed; left: -50px; bottom: 65px; z-index: 9;"><button id="request-call-button" title="We Will Contact Soon">Request A Call Back</button></a>
+    
+    
+        <!--footer part-->
+        <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/mahendra.choudhary.03/"   target="_blank" role="button"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/mahender_choudhary__/"   target="_blank" role="button"
+          ><i class="bi bi-instagram"></i>
+          </a>
+
+          <!-- Twitter -->
+          <!-- <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+            ><i class="bi bi-twitter"></i
+          ></a> -->
+    
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="manindra.html" target="_blank" role="button"
+            ><i class="bi bi-google"></i
+          ></a>
+    
+
+          <!-- You Tube -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCLc6BYiHlxYinRjJk5tn2FQ" target="_blank" role="button"
+            ><i class="bi bi-youtube"></i>
+          </a>
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mahendra-choudhary-461922213/" target="_blank" role="button"
+            ><i class="bi bi-linkedin"></i>
+          </a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/mahendrajiet" target="_blank" role="button"
+            ><i class="bi bi-github"></i
+          ></a>
+        </section>
+
+        <div class="footer">
+          <div class="footer-items">
+            <ul>
+              <h4 class="footer-heading">Center</h4>
+              <li class="footer-li"><a class="footer-anchor" href="#">Jodhpur</a></li>
+              <li class="footer-li"><a class="footer-anchor" href="#">Jaipur</a></li>
+              <li class="footer-li"><a class="footer-anchor" href="#">Kota</a></li>
+              <li class="footer-li"><a class="footer-anchor" href="#">Ahmedabad</a></li>
+            </ul>
+          </div>
+          <div class="footer-items">
+            <ul>
+              <h4 class="footer-heading">About Us</h4>
+              <li class="footer-li"><a class="footer-anchor" href="#">About Manindra</a></li>
+              <li class="footer-li"><a class="footer-anchor" href="#">Director Message</a></li>
+              <li class="footer-li"><a class="footer-anchor" href="#">Our Team</a></li>
+              <li class="footer-li"><a class="footer-anchor" href="#">Patient Talks</a></li>
+            </ul>
+          </div>
+        </div>
+    
+       
+      <!-- Grid container -->
+      <label>Send us a message -</label>
+      <a href="mailto:manindra@gmail.com">manindra@gmail.com</a>
+      <label>Give Us a call - </label>
+      <a class="footer-call" href="tel:+91-7726999262">+91-7726999262</a>
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Manindra.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>

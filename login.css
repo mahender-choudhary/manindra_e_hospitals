@@ -1,43 +1,90 @@
-.top{
-    text-align: center;
-    background-color: green;
-    color: white;
-}
-form{
-    border: 3px solid black;
-    padding: 10px;
-}
-input[type=text], input[type=password]{
-    width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-.lappy{
-    background-color: green;
-    padding: 10px;
-    color: white;
+.container{
+    border: 0.5px solid black;
+    background-color: rgb(230, 226, 226);
     border-radius: 7px;
-    width: 90px;
+    padding: 20px;
+    width: 50%;
+    margin: 2em auto;
 }
-::placeholder{
+
+.user-name, .user-pswd{
+    width: 95%;
+    height: 40px;
+    border: 1.5px solid green;
+}
+
+.user-name::placeholder{
     color: green;
 }
-.pwd{
-    text-decoration: none;
-    color: black;
-}
-.signup{
-    font-family:Arial, Helvetica, sans-serif
-}
-.lapp{
-    background-color: green;
-    padding: 10px;
-    color: white;
-    border-radius: 7px;
-    width: 90px;
-    text-decoration: none;
 
+.user-pswd::placeholder{
+    color: green;
+}
+
+.submit-btn{
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    border-radius: 7px;
+    border: 3px solid white ;
+    color: white;
+}
+
+.submit-btn:hover{
+    background-color: rgb(21, 233, 21);
+    cursor: pointer;
+}
+
+.signup{
+    text-decoration: none;
+    color: rgb(39, 164, 39);
+}
+
+.signup:hover{
+    text-decoration: underline;
+}
+
+#span-signup{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.btn-span{
+    display: flex;
+    justify-content: end;
+}
+
+
+.signup-copyright{
+    background-color: rgb(214, 220, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 70%;
+}
+
+.head-copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .submit-btn{
+        width: 100%;
+    }
+    .container{
+        border: none;
+        background-color: white;
+        width: 80%;
+        /* display: block; */
+        /* justify-content: center; */
+    }
+    .btn-span{
+        display: flex;
+        justify-content: center;
+    }
+    
 }

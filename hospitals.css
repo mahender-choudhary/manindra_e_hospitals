@@ -1,15 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+
 /* main heading */
 #heading{
     background-color: green;
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     height: 50px;
 }
 
 /* search section placeholder for hospitals tab */
 
-::placeholder{
+input::placeholder{
     color: green;
 }
 
@@ -21,21 +34,93 @@
 /* search bar styling */
 
 
-#hos input{
+#search-bar input{
     border: 2px solid green;
     height: 50px;
-    width: 400px;
+    width: 80%;
     float: left;
 }
 
 /* search button styling */
 
 
-#hos button{
+#search-bar button{
     background-color: green;
     color: white;
     height: 50px;
-    width: 70px;
+    width: 90px;
     cursor: pointer;
     border: none;
 }
+
+.section1{
+    border:  2px solid green;
+    display: grid;
+    width: 40vw;
+    margin: 10px;
+    /* padding: 10px; */
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    gap: 10px;
+    text-align: center;
+    background-color: rgb(179, 183, 187);
+}
+
+.section1-img{
+    border-right: 2px solid green;
+}
+
+/* .span-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+button:hover{
+    background-color:rgb(21, 233, 21);
+}
+
+#search-bar button:hover{
+    background-color: rgb(21, 233, 21);
+}
+
+.span-img{
+    border-right: 2px solid green;
+    padding: 10px;
+    height: 100%;
+}
+
+
+.hospital-button{
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flex{
+    display:inline-block;
+    /* justify-content: center; */
+
+}
+
+    /* footer part */
+.call-back-para{
+    background-color: rgb(137, 151, 163);
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+        }
+        
+.call-back-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
